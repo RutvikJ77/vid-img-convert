@@ -7,28 +7,25 @@ Just type in:
 
 `python single_convert.py --input videofile.mp4 --output output_dir --frate 1`
 
-This will convert the videofile into images at 1s per framerate meaning it will extract images every one second.
+This will convert the video file into images at 1s per framerate meaning it will extract images every one second.
 
 `python multi_convert.py --input videofile.mp4 --output output_dir --frate 1`
 
-This will convert the videofiles into images at 1s per framerate meaning it will extract images every one second.
+This will convert the video files into images at 1s per framerate meaning it will extract images every one second.
 
-You can always type 
+You can always type in:
 
 `python single_convert.py -h` or `python single_convert.py -h` for any help with arguments.
 
 
-`
+```
 -i --input (input argument)
-
 -o --output (output path)
-
 -fps --framesps (Requried frame rate)
-
 -frate --frate (Required frames per second) default set to 0.1
-`
+```
 
-## Requirements
+# Requirements
 Before running the script, just install open-cv for python using this command:
 
 `pip install opencv-python`
